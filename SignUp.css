@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image:linear-gradient(rgba(0,0,100,0.5),rgba(0,0,100,0.5)), url(background.png);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-size: cover;
+
+}
+.left-side {
+    width: 50%;
+    /* background-color: #2563eb; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.animated-text {
+    color: rgb(209, 188, 195);
+    font-size: 3rem;
+    font-weight: 1000;
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1.4); }
+}
+           /* *login-page*  */
+
+.login-container {
+    background-color: rgb(244, 236, 236);
+    border-radius: 30px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+
+    
+}
+
+h1 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.login-container button {
+    background-color: #1f8ef1;
+    color: white;
+    border: none;
+    padding: 0px 0px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    
+}
+
+.login-container button:hover {
+    background-color: #0078d4;
+}
+
+.login-container a {
+    display: block;
+    color: #0078d4;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+.login-container-below h1{
+    margin: 20px 0px;
+}
+.login-container-below button{
+    margin: 6px;
+    width: 80%;
+    height:40px;
+}
+
+.fa-google{
+    margin: 5px;
+    font-size: 20px;
+    /* color:#1f8ef1; */
+}
+.fa-linkedin{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.fa-github{
+    font-size: 20px;
+    margin: 5px;
+
+            
+}
+
+.fa-slack{
+    font-size: 20px;
+    margin: 5px;
+
+
+}
+
+/* .tagline {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+} */
+
+/* .footer-links {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #999;
+}
+/*  */
+/* .footer-links a {
+    color: #666;
+    text-decoration: none;
+    margin: 0 5px;
+} */ 
+
+/* .background-illustrations {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.background-illustrations img {
+    position: absolute;
+    opacity: 0.1;
+}
+
+.book {
+    top: 10%;
+    left: 5%;
+}
+
+.cap {
+    bottom: 10%;
+    right: 5%;
+}
+
+.chart {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
